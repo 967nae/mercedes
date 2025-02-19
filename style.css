@@ -19,8 +19,12 @@ body {
       border: 5px solid white;
       width: 100%;
     }
+    h2 {
+      text-transform: uppercase;
+      font-size: 3rem;
+    }
 
-    .FORDRANGER {
+    .poster {
         width: 25%;
         margin-right: 200px;
         margin-top: 0px;
