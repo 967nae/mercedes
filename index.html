@@ -8,19 +8,33 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <style>
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Două coloane egale */
+        gap: 16px; /* Spațiu între imagini */
+    }
+
+    .container {
+        width: 100%; /* Imaginile vor ocupa întreaga lățime a celulei */
+        border-radius: 8px; /* Colțuri rotunjite (opțional) */
+    }
+</style>
   </head>
 
   <body>
 
-    <div class="poster">
-      <img class="motivation-img" src="./assets/images/MERCEDES.jpg" alt="mercedes in curte" />
-      <h1>Mercedesul nostru</h1>
-      <p>Mercedes la noi in curte</p>
-      </div>
+    <h1 style="display: inline; margin-right: 320px;">MERCEDESUL NOSTRU</h1>
+    <h1 style="display: inline;">FORDUL NOSTRU</h1>
+  
 
-    <div class="poster">
+
+    
+
+    <div class="container">
+      <img class="motivation-img" src="./assets/images/MERCEDES.jpg" alt="mercedes in curte" />
       <img class="motivation-img" src="./assets/images/FORDRANGER.jpeg" alt="ford in curte" />
-      <h2>Fordul nostru</h2>
-      <p>Ford la noi in curte</p>
-    </div>  
+      <img class="motivation-img" src="./assets/images/MERCEDES2.png" alt="Imagine 3">
+      <img class="motivation-img" src="assets/images/FORDRANGER2.jpeg" alt="Imagine 4">
+  </div>
   </body>
